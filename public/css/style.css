@@ -69,6 +69,14 @@ body {
     /*height: auto;*/
 }
 
+.imagenes__cuerpo_artista { 
+    margin-top: 1.2%;
+    margin-bottom: 0.7%;
+    width: 70%;
+    /*height: auto;*/
+}
+
+
 .artista__colombiano {
     font-size: 18px;
     color: rgb(0, 0, 0);
@@ -77,6 +85,16 @@ body {
     padding-bottom: 1.5%;
     font-weight: bold
 }
+
+.artista__colombiana{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    font-weight: bold
+}
+
 
 .pie__de__pagina {
     background: #000000;
