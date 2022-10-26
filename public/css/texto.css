@@ -1,0 +1,68 @@
+.texto__cuerpo {
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.texto__info {
+    font-size: 16px;
+}
+
+.texto__parrafo {
+    margin: 1rem 6rem 1rem 6rem;
+}
+
+.texto__container {
+    padding: 3rem;
+    background: #fefefe;
+    width: auto;
+    margin: 0 auto;
+}
+
+.texto__titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: content;
+
+}
+
+.texto__horario {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pie__pagina {
+    background: black;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+
+}
+
+
+@media screen and (max-width:769px) {
+    .texto__cuerpo {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .texto__titulo {
+        font-size: 20px;
+    }
+    .texto__parrafo {
+        margin: 0.1rem 1.5rem 1rem 1.5rem;
+    }
+    .texto__container {
+        padding: 2rem;
+        background: #fefefe;
+        width: auto;
+        margin: 0 auto;
+    }
+    .texto__horario {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
