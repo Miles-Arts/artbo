@@ -14,7 +14,9 @@ body {
 .logo {
     padding-top: 1.5%;
     padding-bottom: 1.3%;
+    margin-left: 10%;
     width: 150px;
+
 }
 
 .menu {
@@ -53,7 +55,7 @@ body {
 
 .cuerpo {
     height: 960px;
-    
+
 }
 
 
@@ -66,13 +68,13 @@ body {
     margin-bottom: 10px;
 }
 
-.imagenes__cuerpo { 
+.imagenes__cuerpo {
     margin-top: 1.2%;
     margin-bottom: 0.7%;
     /*height: auto;*/
 }
 
-.imagenes__cuerpo_artista { 
+.imagenes__cuerpo_artista {
     margin-top: 1.2%;
     margin-bottom: 0.7%;
     width: 70%;
@@ -89,7 +91,7 @@ body {
     font-weight: bold
 }
 
-.artista__colombiana{
+.artista__colombiana {
     font-size: 18px;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -116,7 +118,8 @@ body {
 @media screen and (max-width: 768px) {
     .logo {
         display: flex;
-        flex-direction: center;
+        justify-content: center;
+        margin-left: 0%;
         width: 90px;
     }
 
@@ -137,6 +140,7 @@ body {
         align-items: space-between;
         padding-bottom: 5%;
     }
+
     .cuerpo {
         height: 100%;
     }
@@ -145,13 +149,15 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
+
     .imagenes__cuerpo {
         width: 65%;
         margin-bottom: 20px;
         /*height: auto;*/
     }
+
     .error {
         display: flex;
         flex-direction: column;
